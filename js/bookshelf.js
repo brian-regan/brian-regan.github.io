@@ -1,7 +1,7 @@
 $(function(){
 
 	let sheet_id = '1FlNKr2dJU6UsCW9R1kTttYcUNqt6M5mVW9bSVNL2q0g';
-	var sheetUrl = `http://spreadsheets.google.com/feeds/cells/${sheet_id}/1/public/full?alt=json`;
+	var sheetUrl = `https://spreadsheets.google.com/feeds/cells/${sheet_id}/1/public/full?alt=json`;
 
 	$.getJSON(sheetUrl, function(data){
 
