@@ -174,3 +174,7 @@ a {
 a:hover, a:focus, a:active {
   color: #373737;
 }
+
+div.imagetiles div.col-12 {
+  padding: 1%;
+}
